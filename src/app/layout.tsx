@@ -23,6 +23,8 @@ export const metadata: Metadata = {
   description: "Découvrez des produits authentiques africains et soutenez les artisans et producteurs africains.",
 };
 
+export const dynamic = 'force-dynamic';
+
 export default async function RootLayout({
   children,
 }: Readonly<{
