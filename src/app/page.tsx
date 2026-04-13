@@ -112,7 +112,7 @@ export default async function HomePage() {
             subtitle="Les plus populaires cette semaine"
           />
           <div className="text-center mt-8">
-            <Link href="/products">
+            <Link href="/explorer">
               <Button
                 variant="outline"
                 className="rounded-full px-8 border-primary-500 text-primary-600 hover:bg-primary-50"

@@ -85,7 +85,7 @@ export function CategoryPills({ categories, activeCategoryId }: CategoryPillsPro
             return (
               <Link
                 key={category.id}
-                href={`/products?category=${category.id}`}
+                href={`/explorer?category=${category.id}`}
                 className="flex flex-col items-center gap-2 min-w-[64px] sm:min-w-[72px] group flex-shrink-0"
                 onMouseEnter={() => setHoveredId(category.id)}
                 onMouseLeave={() => setHoveredId(null)}

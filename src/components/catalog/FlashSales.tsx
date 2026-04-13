@@ -100,7 +100,7 @@ export function FlashSales({ products, isLoading, endTime }: FlashSalesProps) {
           <CountdownTimer endTime={defaultEndTime} />
         </div>
         <Link
-          href="/products?onSale=true"
+          href="/explorer?onSale=true"
           className="flex items-center gap-1 text-sm font-medium text-primary-600 hover:text-primary-700 transition-colors"
         >
           Voir tout
